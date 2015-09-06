@@ -1,11 +1,25 @@
-git init //³õÊ¼»¯
-git add//Ìí¼Óµ½»º³åÇø
-git status//²é¿´×´Ì¬
-git log //Ìá½»ÀúÊ·
-git commit  -m "Ìá½»±¸×¢ÄÚÈÝ"
+ï»¿git init //åˆå§‹åŒ–
+git add//æ·»åŠ åˆ°ç¼“å†²åŒº
+git status//æŸ¥çœ‹çŠ¶æ€
+git log //æäº¤åŽ†å²
+git commit  -m "æäº¤å¤‡æ³¨å†…å®¹"
 
-git remote add origin https://github.com/RockWang/myzhufeng6.git  //ÔÚ±¾µØ½¨Á¢Ô¶³ÌÁ¬½Ó
-git push -u origin master//Ìá½»±¾µØÏîÄ¿µ½Ô¶³Ì
+git remote add origin https://github.com/RockWang/myzhufeng6.git  //åœ¨æœ¬åœ°å»ºç«‹è¿œç¨‹è¿žæŽ¥
+git push -u origin master//æäº¤æœ¬åœ°é¡¹ç›®åˆ°è¿œç¨‹
 
-error: src refspec maste does not match any.  ¿ÕÄ¿Â¼ÎÞ·¨Ìá½»
+é”™è¯¯ä¿¡æ¯
+error: src refspec maste does not match any.  ç©ºç›®å½•æ— æ³•æäº¤
 error: failed to push some refs to 'https://github.com/RockWang/myzhufeng6.git'
+
+æˆåŠŸæäº¤
+E:\zhufeng6>git push -u origin master
+Username for 'https://github.com': RockWang
+Password for 'https://RockWang@github.com':
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 494 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/RockWang/myzhufeng6.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
