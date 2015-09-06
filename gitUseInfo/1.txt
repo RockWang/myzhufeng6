@@ -1,4 +1,5 @@
 ﻿git init //初始化
+ls //显示当前内容
 git add//添加到缓冲区
 git status//查看状态
 git log //提交历史
