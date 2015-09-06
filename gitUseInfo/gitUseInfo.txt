@@ -1,0 +1,42 @@
+﻿#git
+备份工具
+历史工具
+协作工具
+#步骤
+1.git init //初始化
+
+ls //显示当前内容
+
+2.git add//添加到缓冲区
+    git add -A stages All
+    git add . stages new and modified, without deleted
+    git add -u stages modified and deleted, without new
+
+3.git status//查看修改状态
+
+4.git log //提交历史
+
+5.git commit  -m "提交备注内容"
+git commit 1.txt -m ""
+
+
+错误信息
+error: src refspec maste does not match any.  空目录无法提交
+error: failed to push some refs to 'https://github.com/RockWang/myzhufeng6.git'
+
+成功提交
+E:\zhufeng6>git push -u origin master
+Username for 'https://github.com': RockWang
+Password for 'https://RockWang@github.com':
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 494 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/RockWang/myzhufeng6.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+6.在github上创建项目
+git remote add origin https://github.com/RockWang/myzhufeng6.git  //在本地建立远程关联起来
+git push -u origin master//提交本地项目到远程
